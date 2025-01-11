@@ -75,7 +75,7 @@ body {
 
 /* Слайдер */
 .slider {
-    background-image: url('background.jpg'); /* Замените 'background.jpg' на путь к вашему изображению */
+    background-image: url('eee.jpg'); /* Замените 'background.jpg' на путь к вашему изображению */
     background-position: center;
     background-size: cover;
     height: 500px;

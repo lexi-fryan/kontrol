@@ -1,20 +1,99 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-<meta charset="utf-8">
-<title>Моя страница</title>
-<link rel="stylesheet" href="smi.css">
-<link rel="icon" href="ff.ico"> 
-<style type ="text / html">
-<font-family="Noto Sans Hanunoo">
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧудоНАдип</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
-
-  
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">ЧудоНАдип</a>
+            <p class="description">Магазин чудесных товаров для ваших нужд!</p>
+        </div>
+    </header>
+    
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Слайдер -->
+    <section class="slider">
+        <div class="container">
+            <h1>Добро пожаловать в мир чудес!</h1>
+            <p>Откройте для себя уникальные товары, которые сделают вашу жизнь ярче.</p>
+            <button class="btn">Узнать больше</button>
+        </div>
+    </section>
+    
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Кто мы такие?</h2>
+            <p>Мы команда энтузиастов, которая стремится сделать ваш день лучше с помощью наших уникальных продуктов. Мы верим, что каждый человек заслуживает чуда в своей жизни, и наши товары помогут вам его найти.</p>
+        </div>
+    </section>
+    
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <i class="fas fa-gift"></i>
+                    <h3>Подарки</h3>
+                    <p>Найдите идеальный подарок для любого случая.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Ремонт</h3>
+                    <p>Профессиональный ремонт любых устройств.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Декорирование</h3>
+                    <p>Создайте уникальный интерьер с нашими услугами по декорированию.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <form action="#" method="post">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Сообщение" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.000000000000001!2d37.61729999999999!3d55.751244000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc74ff97db%3A0xb88a96b9e7f89e30!2z0JrQvtC70Lgg0YHQutCw0YLQuNC10LvRj9C5INGB0LXQtNGG0LjQvQ!5e0!3m2!1sru!2sua!4v1673971963132!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 ЧудоНАдип. Все права защищены.</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- Подключение шрифтов и иконок -->
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
 </body>
+</html>
